@@ -1,0 +1,18 @@
+{
+  "name": "software-engineering-lab-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:txt": "tsc && node dist/src/main.js 4 10 1 5 --saveToFile",
+    "start:csv": "tsc && node dist/src/main.js 4 10 1 5 --saveToFile=csv",
+    "test": "tsc && jest --config dist/jest.config.js"
+  },
+  "author": "Inessa Repeshko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.2.3",
+    "@types/node": "^18.11.9",
+    "jest": "^29.3.1"
+  }
+}
