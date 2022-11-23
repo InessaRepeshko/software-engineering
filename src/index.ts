@@ -81,7 +81,7 @@ export function returnY(x: number, numberOfIterations: number): number {
         for (let i = 0; i <= numberOfIterations - 1; i++) {
             let subLoopSum: number = 0;
             for (let j = 0; j <= i; j++) {
-                subLoopSum += i / (j + x);
+                subLoopSum += i / (j + x + 1);
             }
 
             y += subLoopSum;
