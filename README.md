@@ -1,5 +1,5 @@
 # Description
-Lab. work #5 of Software Engineering. This application calculate some numbers. I wrote unit tests.
+The repository contains the results of the Laboratory work № 5 for the course "Software Engineering" during studies at National Technical University "Kharkiv Polytechnic Institute".
 
 # Install
 ```
@@ -24,3 +24,5 @@ tsc && node dist/src/main.js [start] [end] [step] [numberOfIterations] --saveToF
 ```
 npm run test
 ```
+
+© Inessa Repeshko. 2022
